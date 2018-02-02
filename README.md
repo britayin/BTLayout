@@ -21,5 +21,10 @@
     [self.view2 sAbove:self.view0 margin:10];   //设置尺寸 底部在view0上距离10
 }
 ```
-竖屏和横屏的效果如下
-
+竖屏的效果如下
+<br/>
+<img src="https://github.com/britayin/BTLayout/blob/master/Images/Portrait.png?raw=true" width = "300" alt="竖屏" align=left />
+<br/>
+横屏的效果如下
+<br/>
+<img src="https://github.com/britayin/BTLayout/blob/master/Images/Landscape.png?raw=true" width = "500" alt="竖屏" align=left />
