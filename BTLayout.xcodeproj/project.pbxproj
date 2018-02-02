@@ -13,6 +13,7 @@
 		D056BB62202408CC00BB7320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D056BB61202408CC00BB7320 /* Assets.xcassets */; };
 		D056BB65202408CC00BB7320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D056BB63202408CC00BB7320 /* LaunchScreen.storyboard */; };
 		D056BB68202408CC00BB7320 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D056BB67202408CC00BB7320 /* main.m */; };
+		D056BB7220240D1300BB7320 /* UIView+BTLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D056BB7120240D1300BB7320 /* UIView+BTLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D056BB64202408CC00BB7320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D056BB66202408CC00BB7320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D056BB67202408CC00BB7320 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D056BB7020240D1300BB7320 /* UIView+BTLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BTLayout.h"; sourceTree = "<group>"; };
+		D056BB7120240D1300BB7320 /* UIView+BTLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BTLayout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		D056BB57202408CC00BB7320 /* BTLayout */ = {
 			isa = PBXGroup;
 			children = (
+				D056BB6F20240D1300BB7320 /* BTLayout */,
 				D056BB58202408CC00BB7320 /* AppDelegate.h */,
 				D056BB59202408CC00BB7320 /* AppDelegate.m */,
 				D056BB5B202408CC00BB7320 /* ViewController.h */,
@@ -67,6 +71,15 @@
 				D056BB63202408CC00BB7320 /* LaunchScreen.storyboard */,
 				D056BB66202408CC00BB7320 /* Info.plist */,
 				D056BB67202408CC00BB7320 /* main.m */,
+			);
+			path = BTLayout;
+			sourceTree = "<group>";
+		};
+		D056BB6F20240D1300BB7320 /* BTLayout */ = {
+			isa = PBXGroup;
+			children = (
+				D056BB7020240D1300BB7320 /* UIView+BTLayout.h */,
+				D056BB7120240D1300BB7320 /* UIView+BTLayout.m */,
 			);
 			path = BTLayout;
 			sourceTree = "<group>";
@@ -142,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D056BB7220240D1300BB7320 /* UIView+BTLayout.m in Sources */,
 				D056BB5D202408CC00BB7320 /* ViewController.m in Sources */,
 				D056BB68202408CC00BB7320 /* main.m in Sources */,
 				D056BB5A202408CC00BB7320 /* AppDelegate.m in Sources */,
