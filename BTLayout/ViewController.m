@@ -22,6 +22,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.view.layer.borderWidth = 1;
+    self.view.layer.borderColor = UIColor.lightGrayColor.CGColor;
+    
     self.view0 = [UILabel new];
     self.view0.backgroundColor = UIColor.redColor;
     self.view0.text = @"view0";
