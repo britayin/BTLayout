@@ -1,7 +1,7 @@
 //
 //  UIView+BTLayout.h
-//  Mango
-//
+//  Mango 
+//  https://github.com/britayin/BTLayout
 //  Created by britayin on 2017/11/7.
 //  Copyright © 2017年 z28j. All rights reserved.
 //
