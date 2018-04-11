@@ -10,6 +10,7 @@
 
 @interface UIView (BTLayout)
 
+//以p开头的属性和方法，是固定size，调整position，所以，前提是依赖的width和height已经被设置
 @property (nonatomic) CGFloat pX;
 @property (nonatomic) CGFloat pY;
 @property (nonatomic) CGFloat pWidth;
@@ -74,7 +75,7 @@
 
 
 
-
+//以s开头的属性和方法，是固定position，调整size，所以，前提是依赖的x和y已经被设置
 @property (nonatomic) CGFloat sX;
 @property (nonatomic) CGFloat sY;
 @property (nonatomic) CGFloat sWidth;
