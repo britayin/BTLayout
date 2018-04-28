@@ -565,7 +565,7 @@
 
 - (void)heightAsParent
 {
-    [self widthAsParentMargin:0];
+    [self heightAsParentMargin:0];
 }
 
 - (void)heightAsParentMargin:(CGFloat)margin
